@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TeamStack</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Information</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_info">Information</string>
+
+    <!-- Preference Titles -->
+    <string name="customizations_header">Customizations</string>
+    <string name="info_header">How To Use</string>
+
+    <!-- Customization Preferences -->
+    <string name="num_per_set_title">Number of players per set</string>
+    <string name="default_player_per_set">4</string>
+    <string name="randomize_title">Randomize player sets</string>
+    <string name="mut_exc_title">Mutually exclusive sets</string>
+    <string name="mut_exc_summary">Limits each player to only one set</string>
+    <string name="leftover_players_title">Show leftover players</string>
+    <string name="notify_title">Notify user on actions</string>
+    <string name="notify_summary">Notify when a player is deleted</string>
+
+</resources>

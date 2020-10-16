@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/customizations_header">
+
+        <ListPreference
+            app:defaultValue="4"
+            app:entries="@array/num_entries"
+            app:entryValues="@array/num_values"
+            app:key="num_per_set"
+            app:title="@string/num_per_set_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <!--<EditTextPreference
+            app:key="num_per_set"
+            android:inputType="phone"
+            app:defaultValue="@string/default_player_per_set"
+            app:title="@string/num_per_set_title"
+            app:useSimpleSummaryProvider="true" />-->
+
+        <SwitchPreferenceCompat
+            app:key="randomize"
+            app:defaultValue="true"
+            app:title="@string/randomize_title" />
+
+        <SwitchPreferenceCompat
+            app:key="mutually_exclusive"
+            app:defaultValue="false"
+            app:summary="@string/mut_exc_summary"
+            app:title="@string/mut_exc_title" />
+
+        <SwitchPreferenceCompat
+            app:key="leftover_players"
+            app:dependency="mutually_exclusive"
+            app:defaultValue="false"
+            app:title="@string/leftover_players_title" />
+
+        <SwitchPreferenceCompat
+            app:key="notify"
+            app:defaultValue="true"
+            app:summary="@string/notify_summary"
+            app:title="@string/notify_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
